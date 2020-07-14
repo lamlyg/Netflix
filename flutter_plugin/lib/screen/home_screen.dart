@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_plugin/model/model_movie.dart';
+import 'package:flutter_plugin/widget/box_slider.dart';
 import 'package:flutter_plugin/widget/carousel_slider.dart';
+import 'package:flutter_plugin/widget/circle_slider.dart';
 
 //Movie DB from backend ==> statefulwidget
 class HomeScreen extends StatefulWidget {
@@ -48,7 +50,9 @@ class _HomeScreenState extends State<HomeScreen> {
             CarouselImage(movies: movies),
             TopBar(),
           ],
-        )
+        ),
+        CircleSlider(movies: movies),
+        BoxSlider(movies: movies),
       ],
     );
   }
@@ -63,7 +67,7 @@ class TopBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Image.asset(
-            'images/bbongflix_logo.png',
+            'images/netflix_logo.png',
             fit: BoxFit.contain,
             height: 25,
           ),
