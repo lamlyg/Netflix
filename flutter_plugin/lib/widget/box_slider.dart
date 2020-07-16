@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_plugin/model/model_movie.dart';
 import 'package:flutter_plugin/screen/detail_screen.dart';
 
+
 class BoxSlider extends StatelessWidget {
   final List<Movie> movies;
   BoxSlider({this.movies});
