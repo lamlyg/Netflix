@@ -3,7 +3,8 @@
 
 ## Introduction
 넷플릭스 모바일 어플리케이션 UI 클론 실습 
-
+- Execution Period : 2020.07.13~2020.07.18
+- Reference : https://edu.goorm.io/lecture/19172/%EB%AC%B4%EC%9E%91%EC%A0%95-%ED%94%8C%EB%9F%AC%ED%84%B0-flutter-firebase-%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4ui-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9
 
 ## Development Environment 
 ### OS 
