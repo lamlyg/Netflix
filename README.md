@@ -51,6 +51,10 @@
 - Search : 검색기능 (search_screen) 관련 기능 구현 가능
 - Like : 내가 찜한 콘텐츠 기능 구현 가능
 
+
+## Review & Conclusion
+- WIKI ( https://github.com/lamlyg/Netflix/wiki )
+
 <br/>
 
 
